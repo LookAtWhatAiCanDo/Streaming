@@ -77,7 +77,7 @@ To use this seed prompt with GitHub Copilot:
 
 1. Create a new repository
 2. Open GitHub Copilot Chat
-3. Paste the seed prompt (the 498-character text above)
+3. Paste the seed prompt (the 494-character text above)
 4. Let Copilot generate the initial structure
 5. Review and commit the scaffolded files
 6. Begin issue-based development
