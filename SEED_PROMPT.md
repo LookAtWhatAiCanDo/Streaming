@@ -3,10 +3,10 @@
 ## The Seed Prompt (≤500 characters)
 
 ```
-Create cross-platform Voice WebRTC AI Programmer (Android/iOS/Desktop). Scaffold: src/webrtc/ (mic streaming), src/realtime/ (OpenAI Realtime API client), src/mcp/ (MCP protocol), src/github/ (Copilot integration), src/ui/ (connect, mic toggle, logs, repo selector). Add README.md, docs/FRAMEWORK_EVALUATION.md (compare Flutter/KMP/Qt/ReactNative: WebRTC, Realtime API, MCP, cross-platform, dev experience, ecosystem). Include .gitignore, LICENSE. Voice→Realtime→MCP→Copilot→code workflow.
+Create cross-platform Voice WebRTC AI Programmer (Android/iOS/Desktop). Scaffold: src/webrtc/ (mic streaming), src/realtime/ (OpenAI Realtime API client), src/mcp/ (MCP protocol), src/github/ (Copilot integration), src/ui/ (connect, mic toggle, logs, repo selector). Add README.md, docs/FRAMEWORK_EVAL.md (compare Flutter/KMP/Qt/ReactNative: WebRTC, Realtime API, MCP, cross-platform, dev experience, ecosystem). Voice→Realtime→MCP→Copilot→code workflow.
 ```
 
-**Character Count:** 489 characters ✓
+**Character Count:** 454 characters ✓
 
 ## What This Prompt Creates
 
@@ -14,7 +14,7 @@ This seed prompt instructs GitHub Copilot to scaffold a complete repository stru
 
 ### 1. **Framework Decision**: To Be Determined
 - Framework choice deferred to evaluation phase (as specified in Issue #1)
-- Evaluation document scaffolded: `docs/FRAMEWORK_EVALUATION.md`
+- Evaluation document scaffolded: `docs/FRAMEWORK_EVAL.md`
 - Candidates: Flutter, Kotlin Multiplatform, Qt, React Native
 - Evaluation criteria: WebRTC support, Realtime API integration, MCP client viability, cross-platform reach, developer experience, ecosystem maturity
 
@@ -33,11 +33,10 @@ This seed prompt instructs GitHub Copilot to scaffold a complete repository stru
 
 ### 4. **Documentation**
 - `README.md` with architecture overview
-- `docs/FRAMEWORK_EVALUATION.md` for framework comparison and decision
+- `docs/FRAMEWORK_EVAL.md` for framework comparison and decision
 
 ### 5. **Project Metadata**
-- `.gitignore`
-- `LICENSE`
+- `.gitignore` and `LICENSE` (implicit/standard)
 - Framework-specific files (e.g., `pubspec.yaml`, `package.json`) will be added after framework selection
 
 ### 6. **Workflow Definition**
@@ -62,7 +61,7 @@ Once the repository is scaffolded using this prompt:
 2. **Evaluate and Select Framework**:
    - Compare Flutter, Kotlin Multiplatform, Qt, and React Native
    - Consider WebRTC support, API integration capabilities, and developer experience
-   - Document decision in `docs/FRAMEWORK_EVALUATION.md`
+   - Document decision in `docs/FRAMEWORK_EVAL.md`
    - Initialize chosen framework's project structure
 
 3. **Begin MVP Development**:
@@ -83,7 +82,7 @@ To use this seed prompt with GitHub Copilot:
 
 1. Create a new repository
 2. Open GitHub Copilot Chat
-3. Paste the seed prompt (the 489-character text above)
+3. Paste the seed prompt (the 454-character text above)
 4. Let Copilot generate the initial structure
 5. Review and commit the scaffolded files
 6. Begin issue-based development
@@ -114,7 +113,7 @@ The evaluation will produce a written recommendation with justification, enablin
 - **Testability**: Clear boundaries enable focused unit testing
 - **Documentation-Driven**: Framework decision doc guides early architectural choices
 
-### Why 489 Characters?
+### Why 454 Characters?
 - Meets the ≤500 character constraint
 - Provides sufficient detail for comprehensive scaffolding
 - Includes all critical components
@@ -132,11 +131,11 @@ The repository created from this prompt should enable:
 - ✓ Foundation for issue-based iterative development
 - ✓ Path to MVP clearly defined
 
-This seed prompt (489 characters) successfully captures all essential requirements while staying within the 500-character limit and respecting the issue's requirement to evaluate frameworks before making a decision.
+This seed prompt (454 characters) successfully captures all essential requirements while staying within the 500-character limit and respecting the issue's requirement to evaluate frameworks before making a decision.
 
 ## Framework Alternatives to Evaluate
 
-The prompt instructs creation of `FRAMEWORK_EVALUATION.md` to compare:
+The prompt instructs creation of `FRAMEWORK_EVAL.md` to compare:
 
 1. **Flutter**
 2. **Kotlin Multiplatform (KMP)**
